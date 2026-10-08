@@ -1,0 +1,35 @@
+en:
+  page_title: Signature
+  page_icon: ph:bold/signature
+  intro: "An envelope is what is signed together: documents of the media library and data, sealed by their fingerprint. Each signer signs it — signed in, or from outside through a signed link —, each signature chained to the one before, and anyone holding a file can check it was signed, unchanged."
+  envelopes: My envelopes
+  personal: My signature
+  verify: Verify a file
+  sign_in: Sign in with a test account of the user demo to send an envelope.
+  sign_in_open: Test accounts
+  sample:
+    title: A sample envelope
+    intro: "A contract, sent from you to yourself, to the admin account and to %outside%, someone outside: sealed at once, each one told."
+    send: Send a sample envelope
+    compose: Compose one
+  outside:
+    title: The links of the outside signers
+    intro: Sent by mail — in development, to the mailbox. Shown here so that you can sign as them; open one in a private window, signed out.
+
+fr:
+  page_title: Signature
+  page_icon: ph:bold/signature
+  intro: "Une enveloppe, c'est ce qui se signe ensemble : des documents de la médiathèque et des données, scellés par leur empreinte. Chaque signataire la signe — connecté, ou de l'extérieur par un lien signé —, chaque signature chaînée à la précédente, et quiconque détient un fichier peut vérifier qu'il a été signé, inchangé."
+  envelopes: Mes enveloppes
+  personal: Ma signature
+  verify: Vérifier un fichier
+  sign_in: Connectez-vous avec un compte de test de la démo utilisateur pour envoyer une enveloppe.
+  sign_in_open: Comptes de test
+  sample:
+    title: Une enveloppe d'exemple
+    intro: "Un contrat, envoyé de vous à vous-même, au compte admin et à %outside%, quelqu'un d'extérieur : scellé aussitôt, chacun prévenu."
+    send: Envoyer une enveloppe d'exemple
+    compose: En composer une
+  outside:
+    title: Les liens des signataires extérieurs
+    intro: Envoyés par mail — en développement, dans la boîte mail de dev. Affichés ici pour signer à leur place ; ouvrez-en un dans une fenêtre privée, déconnecté.

@@ -1,0 +1,15 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonySignatureDemo\Service\:
+        resource: '../../Service/'
+
+    Wexample\SymfonySignature\Interface\SignerAccountResolverInterface:
+        alias: Wexample\SymfonySignatureDemo\Service\DemoSignerAccountResolver
+
+    Wexample\SymfonySignatureDemo\Controller\:
+        resource: '../../Controller/'
+        tags: ['controller.service_arguments']

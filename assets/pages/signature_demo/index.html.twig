@@ -1,0 +1,60 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_title_actions -%}
+    {%- if app.user -%}
+        {{ button_link('ph:bold/envelope-simple', '@page::envelopes' | trans, path('signature_index'), { class: 'button' }) }}
+        {{ button_link('ph:bold/signature', '@page::personal' | trans, path('signature_personal'), { class: 'button' }) }}
+    {%- endif -%}
+    {{ button_link('ph:bold/seal-check', '@page::verify' | trans, path('signature_verify'), { class: 'button' }) }}
+{%- endblock -%}
+
+{#- A sample envelope to send, sign and verify; and, the demo having nobody
+    outside to receive them, the signed links of its outside signers. -#}
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {%- if not app.user -%}
+        {{ message_info('@page::sign_in' | trans) }}
+        <div class="cluster">
+            {{ button_link('ph:bold/sign-in', '@page::sign_in_open' | trans, path('user_index')) }}
+        </div>
+    {%- else -%}
+        <section class="block block--card">
+            <div class="block--title">
+                <span class="block--title-leading">{{ icon('ph:bold/envelope-simple') }}</span>
+                <span class="block--title-label">{{ '@page::sample.title' | trans }}</span>
+            </div>
+            <div class="block--body">
+                <p class="text-secondary">{{ '@page::sample.intro' | trans({ '%outside%': outside_email }) }}</p>
+            </div>
+            <div class="block--footer cluster">
+                <form method="post" action="{{ path('signature_demo_sample') }}">
+                    <input type="hidden" name="_token" value="{{ csrf_token(csrf_token_id) }}">
+                    {{ button('ph:bold/paper-plane-tilt', '@page::sample.send' | trans, { type: 'submit' }) }}
+                </form>
+                {{ button_link('ph:bold/plus', '@page::sample.compose' | trans, path('signature_create'), { class: 'button--flat' }) }}
+            </div>
+        </section>
+
+        {%- if outside_links -%}
+        <section class="block block--card">
+            <div class="block--title">
+                <span class="block--title-leading">{{ icon('ph:bold/link') }}</span>
+                <span class="block--title-label">{{ '@page::outside.title' | trans }}</span>
+            </div>
+            <div class="block--body stack--vertical">
+                <p class="text-secondary">{{ '@page::outside.intro' | trans }}</p>
+                <div class="list-expanded">
+                    <div class="list-expanded--items">
+                        {%- for link in outside_links -%}
+                            {{ bar(link.title, { icon: 'ph:bold/pen-nib', subtitle: outside_email, href: link.url, class: 'list-expanded--item' }) }}
+                        {%- endfor -%}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {%- endif -%}
+    {%- endif -%}
+{%- endblock -%}
