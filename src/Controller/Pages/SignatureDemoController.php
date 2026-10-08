@@ -83,23 +83,23 @@ final class SignatureDemoController extends AbstractPagesController
         $date = new DateTimeImmutable();
         $reference = 'DEMO-' . strtoupper(substr(bin2hex(random_bytes(3)), 0, 6));
         $envelope = $envelopes->create(
-            'Contrat de démonstration ' . $reference,
+            'Demo contract ' . $reference,
             $user,
             ['amount' => '1200.00 EUR', 'reference' => $reference],
         );
 
         $path = tempnam(sys_get_temp_dir(), 'signature-demo');
         file_put_contents($path, $this->renderView('@WexampleSymfonySignatureDemoBundle/pages/signature_demo/contract.txt.twig', ['date' => $date, 'reference' => $reference]));
-        $envelopes->addDocument($envelope, $storage->import($path, 'contrat-' . strtolower($reference) . '.txt', $this->getFolder($entityManager, $library)));
+        $envelopes->addDocument($envelope, $storage->import($path, 'contract-' . strtolower($reference) . '.txt', $this->getFolder($entityManager, $library)));
 
         // The signed-in account, the admin account, someone outside.
         $envelopes->addSigner($envelope, (string) $user->getUserIdentifier(), method_exists($user, 'getDisplayName') ? $user->getDisplayName() : $user->getUserIdentifier());
 
         if ($user->getUserIdentifier() !== DemoAccount::ADMIN->getEmail()) {
-            $envelopes->addSigner($envelope, DemoAccount::ADMIN->getEmail(), 'Admin de la démo');
+            $envelopes->addSigner($envelope, DemoAccount::ADMIN->getEmail(), 'Demo admin');
         }
 
-        $envelopes->addSigner($envelope, self::OUTSIDE_EMAIL, 'Client extérieur');
+        $envelopes->addSigner($envelope, self::OUTSIDE_EMAIL, 'Outside client');
         $envelopes->seal($envelope);
 
         return $this->redirectToRoute(SignatureRoute::ENVELOPE, ['id' => (string) $envelope->getId()]);

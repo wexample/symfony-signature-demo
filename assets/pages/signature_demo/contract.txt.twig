@@ -1,16 +1,17 @@
-CONTRAT DE DÉMONSTRATION {{ reference }}
+DEMO CONTRACT {{ reference }}
 
-Fait le {{ date|date('d/m/Y') }}.
+Made on {{ date|date('Y-m-d') }}.
 
-Entre l'expéditeur de cette enveloppe et ses signataires.
+Between the sender of this envelope and its signers.
 
-Article 1 — Objet
-Ce document n'engage personne : il montre comment une enveloppe de
-symfony-signature se scelle, se signe et se vérifie.
+Article 1 — Purpose
+This document binds nobody: it shows how an envelope of symfony-signature
+is sealed, signed and verified.
 
-Article 2 — Montant
-1 200,00 EUR, à titre d'exemple.
+Article 2 — Amount
+EUR 1,200.00, as an example.
 
-Article 3 — Preuve
-L'empreinte SHA-256 de ce fichier figure dans le manifeste de l'enveloppe.
-Modifier un seul caractère de ce fichier rend la signature invérifiable.
+Article 3 — Proof
+The SHA-256 fingerprint of this file is in the manifest of the envelope.
+Changing a single character of this file makes the signature fail its
+verification.
