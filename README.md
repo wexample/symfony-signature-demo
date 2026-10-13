@@ -1,6 +1,6 @@
 # symfony-signature-demo
 
-Version: 2.0.0
+Version: 2.0.1
 
 Demo of symfony-signature: a sample envelope sent from the demo account to another and to someone outside, signed, verified, its proof downloaded
 
@@ -28,7 +28,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - php: >=8.5
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-media: >=2.0.0
 - wexample/symfony-signature: >=2.0.0
 - wexample/symfony-signature-ds: >=2.0.0
