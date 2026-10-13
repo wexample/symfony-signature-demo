@@ -14,7 +14,6 @@ use Wexample\SymfonyMedia\Entity\MediaFolder;
 use Wexample\SymfonyMedia\Service\MediaLibraryService;
 use Wexample\SymfonyMedia\Service\MediaStorage;
 use Wexample\SymfonySignature\Entity\Envelope;
-use Wexample\SymfonySignature\Entity\EnvelopeSigner;
 use Wexample\SymfonySignature\Enum\EnvelopeSignerStatus;
 use Wexample\SymfonySignature\Repository\EnvelopeRepository;
 use Wexample\SymfonySignature\Routing\SignatureRoute;
