@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-signature-demo",
   "description": "Demo of symfony-signature: a sample envelope sent from the demo account to another and to someone outside, signed, verified, its proof downloaded",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "type": "library",
   "license": "MIT",
   "autoload": {
