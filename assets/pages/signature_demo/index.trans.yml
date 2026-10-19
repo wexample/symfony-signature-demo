@@ -51,3 +51,363 @@ zh:
   outside:
     title: 外部签署者的链接
     intro: 通过邮件发送——正在开发中，发送到邮箱。这里显示是为了让您可以以他们的身份签名；在私人窗口中打开，已登出。
+
+ar:
+  page_title: التوقيع
+  page_icon: 'ph:bold/signature'
+  intro: 'المظروف هو ما يتم توقيعه معًا: مستندات مكتبة الوسائط والبيانات، مختومة ببصمة أصبعها. كل موقع يقوم بتوقيعها — سواء تم تسجيل الدخول، أو من الخارج من خلال رابط موقّع —، كل توقيع مرتبط بالتوقيع الذي قبله، وأي شخص يحمل ملفًا يمكنه التحقق من أنه تم توقيعه، دون تغيير.'
+  envelopes: مظروفاتي
+  personal: توقيعي
+  verify: 'تحقق من ملف'
+  sign_in: 'قم بتسجيل الدخول باستخدام حساب اختبار المستخدم لإرسال مظروف.'
+  sign_in_open: 'حسابات الاختبار'
+  sample:
+    title: 'مظروف تجريبي'
+    intro: 'عقد، مُرسل منك إلى نفسك، إلى حساب الإدارة وإلى %outside%، شخص من الخارج: مختوم على الفور، تم إبلاغ كل واحد.'
+    send: 'إرسال مظروف تجريبي'
+    compose: 'إنشاء واحد'
+  outside:
+    title: 'روابط الموقعين من الخارج'
+    intro: 'تم الإرسال عبر البريد — قيد التطوير، إلى صندوق البريد. يظهر هنا حتى تتمكن من التوقيع كأحدهم؛ افتح واحدًا في نافذة خاصة، مسجلاً للخارج.'
+
+hi:
+  page_title: हस्ताक्षर
+  page_icon: 'ph:bold/signature'
+  intro: 'एक लिफाफा वह है जो एक साथ हस्ताक्षरित होता है: मीडिया लाइब्रेरी और डेटा के दस्तावेज़, उनके फिंगरप्रिंट द्वारा सील किए गए। प्रत्येक हस्ताक्षरकर्ता इसे हस्ताक्षर करता है - या तो साइन इन करके, या एक हस्ताक्षरित लिंक के माध्यम से बाहर से - प्रत्येक हस्ताक्षर पिछले वाले से जुड़ा होता है, और कोई भी जो एक फ़ाइल रखता है वह यह जांच सकता है कि इसे हस्ताक्षरित किया गया है, बिना किसी बदलाव के।'
+  envelopes: 'मेरे लिफाफे'
+  personal: 'मेरी हस्ताक्षर'
+  verify: 'एक फ़ाइल की पुष्टि करें'
+  sign_in: 'एक परीक्षण खाते के साथ साइन इन करें ताकि एक लिफाफा भेजा जा सके।'
+  sign_in_open: 'परीक्षण खाते'
+  sample:
+    title: 'एक नमूना लिफाफा'
+    intro: 'एक अनुबंध, जो आपसे आपके लिए, व्यवस्थापक खाते और %outside%, किसी बाहर के व्यक्ति को भेजा गया: एक साथ सील किया गया, प्रत्येक को सूचित किया गया।'
+    send: 'एक नमूना लिफाफा भेजें'
+    compose: 'एक बनाएं'
+  outside:
+    title: 'बाहरी हस्ताक्षरकर्ताओं के लिंक'
+    intro: 'ईमेल द्वारा भेजा गया - विकास में, मेलबॉक्स के लिए। इसे यहाँ दिखाया गया है ताकि आप उनके रूप में हस्ताक्षर कर सकें; एक निजी विंडो में खोलें, साइन आउट।'
+
+he:
+  page_title: חתימה
+  page_icon: 'ph:bold/signature'
+  intro: 'מעטפה היא מה שנחתם יחד: מסמכים מהספרייה המדיה ומידע, חתומים על ידי טביעת האצבע שלהם. כל חותם חותם את זה — נחתם בפנים, או מבחוץ דרך קישור חתום —, כל חתימה מחוברת לזו שלפניה, וכל מי שיש לו קובץ יכול לבדוק שהוא נחתם, ללא שינוי.'
+  envelopes: 'המעטפות שלי'
+  personal: 'החתימה שלי'
+  verify: 'אמת קובץ'
+  sign_in: 'התחבר עם חשבון בדיקה של הדמו של המשתמש לשליחת מעטפה.'
+  sign_in_open: 'חשבונות בדיקה'
+  sample:
+    title: 'מעטפת לדוגמה'
+    intro: 'חוזה, שנשלח ממך אל עצמך, אל חשבון המנהל ואל %outside%, מישהו מבחוץ: חתום מיד, כל אחד מתודע.'
+    send: 'שלח מעטפת לדוגמה'
+    compose: 'צרו אחת'
+  outside:
+    title: 'הקישורים של החותמים מבחוץ'
+    intro: 'נשלח בדואר — בפיתוח, לתיבת הדואר. מוצג כאן כך שתוכל לחתום כמותם; פתח אחד בחלון פרטי, מחובר מחוץ.'
+
+fa:
+  page_title: امضا
+  page_icon: 'ph:bold/signature'
+  intro: 'یک پاکت چیزی است که به صورت مشترک امضا می‌شود: اسناد کتابخانه رسانه‌ای و داده‌ها، که با اثر انگشت خود مهر و موم شده‌اند. هر امضاکننده آن را امضا می‌کند — به صورت آنلاین، یا از طریق یک لینک امضا شده —، هر امضا به امضای قبلی متصل است و هر کسی که یک فایل را در دست دارد می‌تواند بررسی کند که این فایل امضا شده و بدون تغییر است.'
+  envelopes: 'پاکت‌های من'
+  personal: 'امضای من'
+  verify: 'تایید یک فایل'
+  sign_in: 'با یک حساب کاربری آزمایشی از دمو کاربر وارد شوید تا یک پاکت ارسال کنید.'
+  sign_in_open: 'حساب‌های آزمایشی'
+  sample:
+    title: 'یک پاکت نمونه'
+    intro: 'یک قرارداد، که از شما به خودتان، به حساب ادمین و به %outside%، شخصی خارج از سازمان ارسال شده است: به طور همزمان مهر و موم شده و هر یک از آن‌ها مطلع است.'
+    send: 'ارسال یک پاکت نمونه'
+    compose: 'یک پاکت بسازید'
+  outside:
+    title: 'لینک‌های امضاکنندگان خارج'
+    intro: 'از طریق ایمیل ارسال شده — در حال توسعه، به صندوق پستی. اینجا نشان داده شده است تا شما بتوانید به عنوان آن‌ها امضا کنید؛ یکی را در یک پنجره خصوصی باز کنید، بدون ورود.'
+
+ur:
+  page_title: دستخط
+  page_icon: 'ph:bold/signature'
+  intro: 'ایک لفافہ وہ ہے جس پر دستخط کیے جاتے ہیں: میڈیا لائبریری اور ڈیٹا کے دستاویزات، جنہیں ان کے فنگر پرنٹ سے مہر بند کیا گیا ہے۔ ہر دستخط کرنے والا اس پر دستخط کرتا ہے — یا تو سائن ان کرکے، یا دستخط شدہ لنک کے ذریعے باہر سے —، ہر دستخط پچھلے دستخط سے جڑا ہوا ہے، اور جو بھی ایک فائل رکھتا ہے وہ چیک کر سکتا ہے کہ یہ دستخط ہوا ہے، بغیر کسی تبدیلی کے۔'
+  envelopes: 'میرے لفافے'
+  personal: 'میرا دستخط'
+  verify: 'فائل کی تصدیق کریں'
+  sign_in: 'ایک ٹیسٹ اکاؤنٹ کے ساتھ سائن ان کریں تاکہ ایک لفافہ بھیج سکیں۔'
+  sign_in_open: 'ٹیسٹ اکاؤنٹس'
+  sample:
+    title: 'ایک نمونہ لفافہ'
+    intro: 'ایک معاہدہ، جو آپ نے اپنے آپ کو بھیجا، ایڈمن اکاؤنٹ اور %outside% کو، جو باہر کا کوئی شخص ہے: فوراً مہر بند، ہر ایک کو بتایا گیا۔'
+    send: 'ایک نمونہ لفافہ بھیجیں'
+    compose: 'ایک تیار کریں'
+  outside:
+    title: 'باہر کے دستخط کرنے والوں کے لنکس'
+    intro: 'میل کے ذریعے بھیجا گیا — ترقی میں، میل باکس میں۔ یہاں دکھایا گیا تاکہ آپ ان کی طرح دستخط کر سکیں؛ ایک نجی ونڈو میں کھولیں، سائن آؤٹ کر کے.'
+
+ja:
+  page_title: 署名
+  page_icon: 'ph:bold/signature'
+  intro: 封筒は一緒に署名されるものです：メディアライブラリの文書とデータが、その指紋で封印されます。各署名者はそれに署名し、外部からは署名されたリンクを通じて署名され、各署名は前のものに連鎖し、ファイルを持つ誰もがそれが署名され、変更されていないことを確認できます。
+  envelopes: 私の封筒
+  personal: 私の署名
+  verify: ファイルを確認する
+  sign_in: ユーザーデモのテストアカウントでサインインして封筒を送信します。
+  sign_in_open: テストアカウント
+  sample:
+    title: サンプル封筒
+    intro: あなたからあなた自身へ、管理者アカウントへ、そして外部の誰かである%outside%へ送信される契約：一度に封印され、それぞれが知らされます。
+    send: サンプル封筒を送信
+    compose: 作成する
+  outside:
+    title: 外部署名者のリンク
+    intro: 'メールで送信されます — 開発中で、メールボックスに。ここに表示されているのは、彼らとして署名できるようにするためです；プライベートウィンドウで開き、サインアウトします。'
+
+ko:
+  page_title: 서명
+  page_icon: 'ph:bold/signature'
+  intro: '봉투는 함께 서명되는 것이다: 미디어 라이브러리의 문서와 데이터, 그들의 지문으로 봉인된다. 각 서명자는 서명된 링크를 통해 서명하거나 서명하여, 각 서명이 이전 서명과 연결되어 있으며, 파일을 가진 누구나 서명이 되었고 변경되지 않았음을 확인할 수 있다.'
+  envelopes: '내 봉투'
+  personal: '내 서명'
+  verify: '파일 확인'
+  sign_in: '봉투를 보내기 위해 사용자 데모의 테스트 계정으로 로그인하세요.'
+  sign_in_open: '테스트 계정'
+  sample:
+    title: '샘플 봉투'
+    intro: '당신이 자신에게, 관리자 계정에게, 그리고 %outside%에게 보내는 계약: 한 번에 봉인되고, 각자에게 전달된다.'
+    send: '샘플 봉투 보내기'
+    compose: '하나 작성하기'
+  outside:
+    title: '외부 서명자의 링크들'
+    intro: '메일로 발송됨 — 개발 중, 우편함으로. 그들이 서명할 수 있도록 여기에 표시되어 있으며; 개인 창에서 하나를 열고 로그아웃된 상태로 서명합니다.'
+
+bn:
+  page_title: স্বাক্ষর
+  page_icon: 'ph:bold/signature'
+  intro: 'একটি খাম হল যা একসাথে স্বাক্ষরিত হয়: মিডিয়া লাইব্রেরির ডকুমেন্ট এবং তথ্য, তাদের আঙ্গুলের ছাপ দ্বারা সিল করা। প্রতিটি স্বাক্ষরকারী এটি স্বাক্ষর করে — সাইন ইন করা, বা একটি স্বাক্ষরিত লিঙ্কের মাধ্যমে বাইরের থেকে —, প্রতিটি স্বাক্ষর আগেরটির সাথে চেইন করা, এবং যেকেউ একটি ফাইল ধারণ করে তা চেক করতে পারে যে এটি স্বাক্ষরিত হয়েছে, অপরিবর্তিত।'
+  envelopes: 'আমার খামগুলো'
+  personal: 'আমার স্বাক্ষর'
+  verify: 'একটি ফাইল যাচাই করুন'
+  sign_in: 'একটি পরীক্ষামূলক ব্যবহারকারীর ডেমো অ্যাকাউন্ট দিয়ে খামের জন্য সাইন ইন করুন।'
+  sign_in_open: 'পরীক্ষামূলক অ্যাকাউন্ট'
+  sample:
+    title: 'একটি নমুনা খাম'
+    intro: 'একটি চুক্তি, যা আপনি নিজের কাছে, প্রশাসক অ্যাকাউন্টে এবং %outside% কে, বাইরের কাউকে পাঠিয়েছেন: একবারে সিল করা, প্রত্যেককে জানানো হয়েছে।'
+    send: 'একটি নমুনা খাম পাঠান'
+    compose: 'একটি তৈরি করুন'
+  outside:
+    title: 'বাইরের স্বাক্ষরকারীদের লিঙ্কগুলো'
+    intro: 'মেইলে পাঠানো — উন্নয়নের মধ্যে, মেইলবক্সে। এখানে দেখানো হয়েছে যাতে আপনি তাদের মতো স্বাক্ষর করতে পারেন; একটি ব্যক্তিগত উইন্ডোতে খুলুন, সাইন আউট করুন।'
+
+th:
+  page_title: ลายเซ็น
+  page_icon: 'ph:bold/signature'
+  intro: 'ซองจดหมายคือสิ่งที่ลงนามร่วมกัน: เอกสารในคลังสื่อและข้อมูล ที่ถูกปิดผนึกด้วยลายนิ้วมือของพวกเขา ผู้ลงนามแต่ละคนจะเซ็น — เซ็นเข้ามา หรือจากภายนอกผ่านลิงก์ที่ลงนาม — ลายเซ็นแต่ละอันจะเชื่อมโยงกับลายเซ็นก่อนหน้า และใครก็ตามที่ถือไฟล์สามารถตรวจสอบได้ว่ามันถูกเซ็นแล้ว โดยไม่มีการเปลี่ยนแปลง'
+  envelopes: ซองของฉัน
+  personal: ลายเซ็นของฉัน
+  verify: ตรวจสอบไฟล์
+  sign_in: ลงชื่อเข้าใช้ด้วยบัญชีทดสอบของผู้ใช้สาธิตเพื่อส่งซองจดหมาย
+  sign_in_open: บัญชีทดสอบ
+  sample:
+    title: ซองตัวอย่าง
+    intro: 'สัญญาที่ส่งจากคุณไปยังตัวคุณเอง, ไปยังบัญชีผู้ดูแล และไปยัง %outside%, บุคคลภายนอก: ปิดผนึกทันที, ทุกคนถูกแจ้ง'
+    send: ส่งซองตัวอย่าง
+    compose: สร้างหนึ่งอัน
+  outside:
+    title: ลิงก์ของผู้ลงนามภายนอก
+    intro: 'ส่งทางอีเมล — อยู่ในระหว่างการพัฒนา, ไปยังกล่องจดหมาย แสดงที่นี่เพื่อให้คุณสามารถเซ็นในฐานะพวกเขา; เปิดหนึ่งในหน้าต่างส่วนตัว, ลงชื่อออก.'
+
+de:
+  page_title: Unterschrift
+  page_icon: 'ph:bold/signature'
+  intro: 'Ein Umschlag ist das, was gemeinsam unterschrieben wird: Dokumente der Medienbibliothek und Daten, versiegelt durch ihren Fingerabdruck. Jeder Unterzeichner unterschreibt — eingeloggt oder von außen über einen signierten Link —, jede Unterschrift ist an die vorherige angekettet, und jeder, der eine Datei hat, kann überprüfen, dass sie unterschrieben und unverändert ist.'
+  envelopes: 'Meine Umschläge'
+  personal: 'Meine Unterschrift'
+  verify: 'Datei überprüfen'
+  sign_in: 'Melden Sie sich mit einem Testkonto des Benutzers Demo an, um einen Umschlag zu senden.'
+  sign_in_open: Testkonten
+  sample:
+    title: 'Ein Musterumschlag'
+    intro: 'Ein Vertrag, der von Ihnen an sich selbst, an das Admin-Konto und an %outside%, jemanden von außen, gesendet wird: sofort versiegelt, jeder informiert.'
+    send: 'Einen Musterumschlag senden'
+    compose: 'Einen erstellen'
+  outside:
+    title: 'Die Links der externen Unterzeichner'
+    intro: 'Per E-Mail gesendet — in Entwicklung, an die Mailbox. Hier angezeigt, damit Sie als sie unterschreiben können; öffnen Sie einen in einem privaten Fenster, abgemeldet.'
+
+fi:
+  page_title: Allekirjoitus
+  page_icon: 'ph:bold/signature'
+  intro: 'Kirjekuori on se, mikä allekirjoitetaan yhdessä: mediakirjaston asiakirjat ja tiedot, sinetöitynä niiden sormenjäljellä. Jokainen allekirjoittaja allekirjoittaa sen — kirjautuneena tai ulkopuolelta allekirjoitetun linkin kautta —, jokainen allekirjoitus on ketjutettu edelliseen, ja kuka tahansa tiedoston haltija voi tarkistaa, että se on allekirjoitettu, muuttumattomana.'
+  envelopes: 'Omat kirjekuoreni'
+  personal: 'Oma allekirjoitukseni'
+  verify: 'Vahvista tiedosto'
+  sign_in: 'Kirjaudu sisään käyttäjädemo-testitilillä lähettääksesi kirjekuoren.'
+  sign_in_open: Testitilit
+  sample:
+    title: Esimerkkikirjekuori
+    intro: 'Sopimus, joka lähetetään sinulta itsellesi, ylläpitotilille ja %outside%, jollekin ulkopuoliselle: sinetöity heti, jokaiselle kerrottu.'
+    send: 'Lähetä esimerkkikirjekuori'
+    compose: 'Laadi yksi'
+  outside:
+    title: 'Ulkopuolisten allekirjoittajien linkit'
+    intro: 'Lähetetty sähköpostitse — kehitteillä, postilaatikkoon. Näytetään täällä, jotta voit allekirjoittaa heidän puolestaan; avaa yksi yksityisessä ikkunassa, kirjautumatta sisään.'
+
+ru:
+  page_title: Подпись
+  page_icon: 'ph:bold/signature'
+  intro: 'Конверт — это то, что подписывается вместе: документы медиатеки и данные, запечатанные их отпечатком. Каждый подписывающий ставит подпись — зашедший в систему или снаружи по подписанной ссылке —, каждая подпись связана с предыдущей, и любой, имеющий файл, может проверить, что он был подписан, без изменений.'
+  envelopes: 'Мои конверты'
+  personal: 'Моя подпись'
+  verify: 'Проверить файл'
+  sign_in: 'Войдите с тестовой учетной записью пользователя demo, чтобы отправить конверт.'
+  sign_in_open: 'Тестовые учетные записи'
+  sample:
+    title: 'Пример конверта'
+    intro: 'Контракт, отправленный вами себе, на администраторскую учетную запись и %outside%, кому-то извне: запечатанный сразу, каждый уведомлен.'
+    send: 'Отправить пример конверта'
+    compose: 'Составить один'
+  outside:
+    title: 'Ссылки внешних подписантов'
+    intro: 'Отправлено по почте — в разработке, на почтовый ящик. Показано здесь, чтобы вы могли подписать как они; откройте одно в приватном окне, без входа.'
+
+pl:
+  page_title: Podpis
+  page_icon: 'ph:bold/signature'
+  intro: 'Koperta to to, co jest podpisywane wspólnie: dokumenty z biblioteki multimedialnej i dane, opieczętowane ich odciskiem palca. Każdy podpisujący go podpisuje — zalogowany, lub z zewnątrz przez podpisany link —, każdy podpis powiązany z poprzednim, a każdy, kto posiada plik, może sprawdzić, że został podpisany, bez zmian.'
+  envelopes: 'Moje koperty'
+  personal: 'Mój podpis'
+  verify: 'Zweryfikuj plik'
+  sign_in: 'Zaloguj się przy użyciu konta testowego użytkownika demo, aby wysłać kopertę.'
+  sign_in_open: 'Konta testowe'
+  sample:
+    title: 'Przykładowa koperta'
+    intro: 'Umowa, wysłana od Ciebie do Ciebie, do konta administracyjnego i do %outside%, kogoś z zewnątrz: opieczętowana od razu, każdy poinformowany.'
+    send: 'Wyślij przykładową kopertę'
+    compose: 'Skomponuj jedną'
+  outside:
+    title: 'Linki zewnętrznych podpisujących'
+    intro: 'Wysłane pocztą — w trakcie opracowywania, do skrzynki odbiorczej. Pokazane tutaj, abyś mógł podpisać jako oni; otwórz jeden w prywatnym oknie, wylogowany.'
+
+es:
+  page_title: Firma
+  page_icon: 'ph:bold/signature'
+  intro: 'Un sobre es lo que se firma en conjunto: documentos de la biblioteca multimedia y datos, sellados por su huella dactilar. Cada firmante lo firma — firmado desde dentro o desde fuera a través de un enlace firmado —, cada firma encadenada a la anterior, y cualquier persona que tenga un archivo puede verificar que fue firmado, sin cambios.'
+  envelopes: 'Mis sobres'
+  personal: 'Mi firma'
+  verify: 'Verificar un archivo'
+  sign_in: 'Inicia sesión con una cuenta de prueba del usuario demo para enviar un sobre.'
+  sign_in_open: 'Cuentas de prueba'
+  sample:
+    title: 'Un sobre de muestra'
+    intro: 'Un contrato, enviado de ti para ti, a la cuenta de administrador y a %outside%, alguien de fuera: sellado de inmediato, cada uno informado.'
+    send: 'Enviar un sobre de muestra'
+    compose: 'Redactar uno'
+  outside:
+    title: 'Los enlaces de los firmantes externos'
+    intro: 'Enviado por correo — en desarrollo, a la bandeja de entrada. Mostrado aquí para que puedas firmar como ellos; abre uno en una ventana privada, desconectado.'
+
+it:
+  page_title: Firma
+  page_icon: 'ph:bold/signature'
+  intro: "Una busta è ciò che viene firmato insieme: documenti della libreria multimediale e dati, sigillati dalla loro impronta digitale. Ogni firmatario la firma — firmato, o dall'esterno tramite un link firmato —, ogni firma collegata a quella precedente, e chiunque abbia un file può verificare che sia stata firmata, senza modifiche."
+  envelopes: 'Le mie buste'
+  personal: 'La mia firma'
+  verify: 'Verifica un file'
+  sign_in: "Accedi con un account di test dell'utente demo per inviare una busta."
+  sign_in_open: 'Account di test'
+  sample:
+    title: 'Una busta di esempio'
+    intro: "Un contratto, inviato da te a te stesso, all'account admin e a %outside%, qualcuno all'esterno: sigillato immediatamente, ognuno avvisato."
+    send: 'Invia una busta di esempio'
+    compose: 'Componine una'
+  outside:
+    title: 'I link dei firmatari esterni'
+    intro: 'Inviato via mail — in sviluppo, alla casella di posta. Mostrato qui in modo che tu possa firmare come loro; aprine uno in una finestra privata, disconnesso.'
+
+pt_BR:
+  page_title: Assinatura
+  page_icon: 'ph:bold/signature'
+  intro: 'Um envelope é o que é assinado em conjunto: documentos da biblioteca de mídia e dados, selados pela sua impressão digital. Cada signatário o assina — assinado dentro, ou de fora através de um link assinado —, cada assinatura encadeada à anterior, e qualquer pessoa que tenha um arquivo pode verificar que foi assinado, sem alterações.'
+  envelopes: 'Meus envelopes'
+  personal: 'Minha assinatura'
+  verify: 'Verificar um arquivo'
+  sign_in: 'Faça login com uma conta de teste do usuário demo para enviar um envelope.'
+  sign_in_open: 'Contas de teste'
+  sample:
+    title: 'Um envelope de amostra'
+    intro: 'Um contrato, enviado de você para você mesmo, para a conta de administrador e para %outside%, alguém de fora: selado imediatamente, cada um informado.'
+    send: 'Enviar um envelope de amostra'
+    compose: 'Compor um'
+  outside:
+    title: 'Os links dos signatários externos'
+    intro: 'Enviado por e-mail — em desenvolvimento, para a caixa de entrada. Mostrado aqui para que você possa assinar como eles; abra um em uma janela privada, deslogado.'
+
+tr:
+  page_title: İmza
+  page_icon: 'ph:bold/signature'
+  intro: 'Bir zarf, birlikte imzalanan şeydir: medya kütüphanesinin belgeleri ve parmak iziyle mühürlenmiş veriler. Her imzalayan, imzalanmış olarak ya da dışarıdan imzalı bir bağlantı aracılığıyla imzalar; her imza, öncekine bağlıdır ve bir dosyaya sahip olan herkes, dosyanın imzalandığını, değişmeden kontrol edebilir.'
+  envelopes: Zarfım
+  personal: İmzam
+  verify: 'Bir dosyayı doğrula'
+  sign_in: "Bir zarf göndermek için kullanıcı demo'sunun test hesabıyla oturum açın."
+  sign_in_open: 'Test hesapları'
+  sample:
+    title: 'Bir örnek zarf'
+    intro: 'Sizden kendinize, yönetici hesabına ve %outside% dışarıdaki birine gönderilen bir sözleşme: hemen mühürlendi, her biri bilgilendirildi.'
+    send: 'Bir örnek zarf gönder'
+    compose: 'Bir tane oluştur'
+  outside:
+    title: 'Dış imzalayanların bağlantıları'
+    intro: 'Postayla gönderildi — geliştirme aşamasında, posta kutusuna. Onların yerine imzalayabilmeniz için burada gösterilmektedir; bir özel pencerede açın, oturum kapalı.'
+
+vi:
+  page_title: 'Chữ ký'
+  page_icon: 'ph:bold/signature'
+  intro: 'Một phong bì là những gì được ký chung: tài liệu của thư viện phương tiện và dữ liệu, được niêm phong bằng dấu vân tay của chúng. Mỗi người ký sẽ ký vào đó — đăng nhập, hoặc từ bên ngoài qua một liên kết đã ký —, mỗi chữ ký gắn liền với chữ ký trước đó, và bất kỳ ai giữ một tệp đều có thể kiểm tra nó đã được ký, không thay đổi.'
+  envelopes: 'Phong bì của tôi'
+  personal: 'Chữ ký của tôi'
+  verify: 'Xác minh tệp'
+  sign_in: 'Đăng nhập bằng tài khoản thử nghiệm của người dùng demo để gửi một phong bì.'
+  sign_in_open: 'Tài khoản thử nghiệm'
+  sample:
+    title: 'Một phong bì mẫu'
+    intro: 'Một hợp đồng, được gửi từ bạn đến chính bạn, đến tài khoản quản trị và đến %outside%, một người bên ngoài: được niêm phong ngay lập tức, mỗi người đều được thông báo.'
+    send: 'Gửi một phong bì mẫu'
+    compose: 'Soạn một cái'
+  outside:
+    title: 'Các liên kết của những người ký bên ngoài'
+    intro: 'Gửi qua email — đang phát triển, đến hộp thư. Hiển thị ở đây để bạn có thể ký như họ; mở một cái trong cửa sổ riêng tư, đã đăng xuất.'
+
+id:
+  page_title: 'Tanda Tangan'
+  page_icon: 'ph:bold/signature'
+  intro: 'Sebuah amplop adalah apa yang ditandatangani bersama: dokumen dari perpustakaan media dan data, disegel dengan sidik jari mereka. Setiap penandatangan menandatanganinya — masuk, atau dari luar melalui tautan yang ditandatangani —, setiap tanda tangan terhubung dengan yang sebelumnya, dan siapa pun yang memegang file dapat memeriksa apakah itu telah ditandatangani, tanpa perubahan.'
+  envelopes: 'Amplop saya'
+  personal: 'Tanda tangan saya'
+  verify: 'Verifikasi file'
+  sign_in: 'Masuk dengan akun uji pengguna demo untuk mengirim amplop.'
+  sign_in_open: 'Akun uji'
+  sample:
+    title: 'Amplop contoh'
+    intro: 'Sebuah kontrak, dikirim dari Anda ke diri Anda sendiri, ke akun admin dan ke %outside%, seseorang dari luar: disegel sekaligus, masing-masing diberitahu.'
+    send: 'Kirim amplop contoh'
+    compose: 'Susun satu'
+  outside:
+    title: 'Tautan dari penandatangan luar'
+    intro: 'Dikirim melalui email — dalam pengembangan, ke kotak surat. Ditampilkan di sini agar Anda dapat menandatangani sebagai mereka; buka satu di jendela pribadi, keluar.'
+
+nl:
+  page_title: Handtekening
+  page_icon: 'ph:bold/signature'
+  intro: 'Een envelop is wat samen wordt ondertekend: documenten van de mediatheek en gegevens, verzegeld met hun vingerafdruk. Elke ondertekenaar ondertekent het — ingelogd, of van buitenaf via een ondertekende link —, elke handtekening gekoppeld aan de vorige, en iedereen die een bestand heeft kan controleren of het is ondertekend, onveranderd.'
+  envelopes: 'Mijn enveloppen'
+  personal: 'Mijn handtekening'
+  verify: 'Verifieer een bestand'
+  sign_in: 'Log in met een testaccount van de gebruikersdemo om een envelop te verzenden.'
+  sign_in_open: Testaccounts
+  sample:
+    title: 'Een voorbeeld envelop'
+    intro: 'Een contract, verzonden van jou naar jezelf, naar het adminaccount en naar %outside%, iemand van buiten: direct verzegeld, iedereen is geïnformeerd.'
+    send: 'Verzend een voorbeeld envelop'
+    compose: 'Stel er een samen'
+  outside:
+    title: 'De links van de buitenste ondertekenaars'
+    intro: 'Verzonden per post — in ontwikkeling, naar de postbus. Hier weergegeven zodat je als hen kunt ondertekenen; open er een in een privévenster, uitgelogd.'
