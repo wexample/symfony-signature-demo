@@ -15,3 +15,39 @@ en:
   outside:
     title: The links of the outside signers
     intro: Sent by mail — in development, to the mailbox. Shown here so that you can sign as them; open one in a private window, signed out.
+
+fr:
+  page_title: Signature
+  page_icon: 'ph:bold/signature'
+  intro: "Une enveloppe est ce qui est signé ensemble : des documents de la médiathèque et des données, scellés par leur empreinte. Chaque signataire la signe — connecté, ou de l'extérieur via un lien signé —, chaque signature étant enchaînée à la précédente, et quiconque détenant un fichier peut vérifier qu'il a été signé, sans modification."
+  envelopes: 'Mes enveloppes'
+  personal: 'Ma signature'
+  verify: 'Vérifier un fichier'
+  sign_in: "Connectez-vous avec un compte de test de l'utilisateur démo pour envoyer une enveloppe."
+  sign_in_open: 'Comptes de test'
+  sample:
+    title: "Une enveloppe d'exemple"
+    intro: "Un contrat, envoyé de vous à vous-même, au compte administrateur et à %outside%, quelqu'un de l'extérieur : scellé instantanément, chacun informé."
+    send: "Envoyer une enveloppe d'exemple"
+    compose: 'En composer une'
+  outside:
+    title: 'Les liens des signataires externes'
+    intro: "Envoyé par mail — en développement, à la boîte aux lettres. Affiché ici pour que vous puissiez signer en tant qu'eux ; ouvrez-en un dans une fenêtre privée, déconnecté."
+
+zh:
+  page_title: 签名
+  page_icon: 'ph:bold/signature'
+  intro: 信封是一起签署的内容：媒体库的文件和数据，由它们的指纹封存。每个签署者都签署它——通过签署的链接在外部签名，或直接签入——每个签名都链接到前一个签名，任何持有文件的人都可以检查它是否已签署且未更改。
+  envelopes: 我的信封
+  personal: 我的签名
+  verify: 验证文件
+  sign_in: 使用用户演示的测试帐户登录以发送信封。
+  sign_in_open: 测试帐户
+  sample:
+    title: 示例信封
+    intro: '一份合同，从您发送给自己，发送到管理员帐户和 %outside%，一个外部人员：一次性封存，每个人都被通知。'
+    send: 发送示例信封
+    compose: 撰写一个
+  outside:
+    title: 外部签署者的链接
+    intro: 通过邮件发送——正在开发中，发送到邮箱。这里显示是为了让您可以以他们的身份签名；在私人窗口中打开，已登出。
