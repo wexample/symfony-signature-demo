@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-signature-demo",
   "description": "Demo of symfony-signature: a sample envelope sent from the demo account to another and to someone outside, signed, verified, its proof downloaded",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -17,13 +17,13 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-helpers": ">=16.0.0",
-    "wexample/symfony-loader": ">=23.0.0",
-    "wexample/symfony-design-system": ">=35.0.0",
-    "wexample/symfony-media": ">=2.0.0",
+    "wexample/symfony-helpers": ">=17.0.0",
+    "wexample/symfony-loader": ">=23.1.0",
+    "wexample/symfony-design-system": ">=37.0.0",
+    "wexample/symfony-media": ">=3.0.0",
     "wexample/symfony-signature": ">=2.0.0",
-    "wexample/symfony-signature-ds": ">=2.0.0",
-    "wexample/symfony-user-demo": ">=6.1.0"
+    "wexample/symfony-signature-ds": ">=3.0.0",
+    "wexample/symfony-user-demo": ">=7.0.0"
   },
   "repositories": [
     {
