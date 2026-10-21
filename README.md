@@ -1,6 +1,6 @@
 # symfony-signature-demo
 
-Version: 2.0.7
+Version: 2.0.8
 
 Demo of symfony-signature: a sample envelope sent from the demo account to another and to someone outside, signed, verified, its proof downloaded
 
@@ -25,7 +25,7 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-helpers: >=18.0.0
-- wexample/symfony-loader: >=24.0.0
+- wexample/symfony-loader: >=25.0.0
 - wexample/symfony-design-system: >=39.0.0
 - wexample/symfony-media: >=5.0.0
 - wexample/symfony-signature: >=2.0.0
