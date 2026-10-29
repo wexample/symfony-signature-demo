@@ -1,6 +1,6 @@
 # symfony-signature-demo
 
-Version: 2.0.15
+Version: 2.0.16
 
 Demo of symfony-signature: a sample envelope sent from the demo account to another and to someone outside, signed, verified, its proof downloaded
 
